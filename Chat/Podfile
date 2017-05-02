@@ -1,0 +1,7 @@
+
+ platform :ios, '9.0'
+
+target 'Chat' do
+pod 'IQKeyboardManager'
+
+end
