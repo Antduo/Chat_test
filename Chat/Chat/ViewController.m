@@ -24,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _messageListArray = [[NSMutableArray alloc]initWithArray:@[@"在哪里举办活动?",@"地点:重庆市南岸区天府街一号广场",@"是九点集合不?",@"是的,礼拜六早上九点集合",@"活动举办到什么时候结束",@"预计大概晚上8点钟结束"]];
+    _messageListArray = [[NSMutableArray alloc]initWithArray:@[@"在哪里举办活动?",@"地点:重庆市南岸区天府街一号广场",@"是九点集合不?",@"是的,礼拜六早上九点集合",@"活动举办到什么时候结束",@"预计大概晚上8点钟结束",@"好的,知道了,谢谢"]];
     
     
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
