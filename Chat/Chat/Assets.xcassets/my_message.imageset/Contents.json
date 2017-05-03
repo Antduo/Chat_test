@@ -13,14 +13,14 @@
           "height" : 1
         },
         "cap-insets" : {
-          "bottom" : 17,
-          "top" : 62,
-          "right" : 132,
-          "left" : 133
+          "bottom" : 19,
+          "top" : 60,
+          "right" : 29,
+          "left" : 28
         }
       },
       "idiom" : "universal",
-      "filename" : "本人聊天气泡@2x.png",
+      "filename" : "my_message@2x.png",
       "scale" : "2x"
     },
     {
@@ -32,14 +32,14 @@
           "height" : 1
         },
         "cap-insets" : {
-          "bottom" : 25,
-          "top" : 94,
-          "right" : 199,
-          "left" : 200
+          "bottom" : 22,
+          "top" : 97,
+          "right" : 48,
+          "left" : 38
         }
       },
       "idiom" : "universal",
-      "filename" : "本人聊天气泡@3x.png",
+      "filename" : "my_message@3x.png",
       "scale" : "3x"
     }
   ],

@@ -31,7 +31,7 @@
                         <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otherMessage" translatesAutoresizingMaskIntoConstraints="NO" id="iJ6-1G-gzY">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="other_message" translatesAutoresizingMaskIntoConstraints="NO" id="iJ6-1G-gzY">
                         <rect key="frame" x="48" y="32.5" width="154" height="40"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="在哪里举办活动?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFH-5f-grf">
@@ -68,6 +68,6 @@
     </objects>
     <resources>
         <image name="boy.jpg" width="289" height="274"/>
-        <image name="otherMessage" width="133" height="40"/>
+        <image name="other_message" width="29" height="40"/>
     </resources>
 </document>
