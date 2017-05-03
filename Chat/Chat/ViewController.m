@@ -41,10 +41,7 @@
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_messageListArray.count-1 inSection:0];
         [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
     });
-    
-    
-    //我修改了这里 测试收到货开发收到回复接口
-    
+
 }
 
 
