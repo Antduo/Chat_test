@@ -22,60 +22,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sH0-gj-hJL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="mrJ-s3-Wr8"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="pka-2T-Zfy"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mEP-8K-09e">
-                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
-                                <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5DP-Ff-SjK">
-                                        <rect key="frame" x="10" y="5" width="305" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IW-gC-AI7">
-                                        <rect key="frame" x="325" y="3" width="40" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="a54-3P-jfA"/>
-                                        </constraints>
-                                        <state key="normal" title="发送">
-                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r0i-hJ-J9D"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="8IW-gC-AI7" firstAttribute="leading" secondItem="5DP-Ff-SjK" secondAttribute="trailing" constant="10" id="A16-ea-AY4"/>
-                                    <constraint firstItem="5DP-Ff-SjK" firstAttribute="centerY" secondItem="8IW-gC-AI7" secondAttribute="centerY" id="Z5L-BR-yuP"/>
-                                    <constraint firstItem="8IW-gC-AI7" firstAttribute="centerY" secondItem="mEP-8K-09e" secondAttribute="centerY" id="aNx-sZ-Zej"/>
-                                    <constraint firstAttribute="trailing" secondItem="8IW-gC-AI7" secondAttribute="trailing" constant="10" id="gAy-3Y-EmF"/>
-                                    <constraint firstAttribute="height" constant="40" id="i5J-9H-eZ6"/>
-                                    <constraint firstItem="5DP-Ff-SjK" firstAttribute="leading" secondItem="mEP-8K-09e" secondAttribute="leading" constant="10" id="zSX-v9-KBn"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="mEP-8K-09e" secondAttribute="trailing" id="0jL-5I-rlj"/>
                             <constraint firstItem="sH0-gj-hJL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4hY-6F-TG6"/>
                             <constraint firstItem="sH0-gj-hJL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JGA-4C-jS7"/>
                             <constraint firstAttribute="trailing" secondItem="sH0-gj-hJL" secondAttribute="trailing" id="M81-t9-qSI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mEP-8K-09e" secondAttribute="bottom" id="ZO5-td-ecc"/>
-                            <constraint firstItem="mEP-8K-09e" firstAttribute="top" secondItem="sH0-gj-hJL" secondAttribute="bottom" id="fI7-Px-d9Y"/>
-                            <constraint firstItem="mEP-8K-09e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xfb-Y2-8LT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sH0-gj-hJL" secondAttribute="bottom" constant="49" id="bmK-hb-uip"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="群聊" id="OHF-gU-Mcr"/>
                     <connections>
-                        <outlet property="messageTF" destination="5DP-Ff-SjK" id="HrB-Ne-HI6"/>
                         <outlet property="tableView" destination="sH0-gj-hJL" id="BhM-kX-dLE"/>
                     </connections>
                 </viewController>
